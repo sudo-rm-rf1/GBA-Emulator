@@ -12,6 +12,12 @@ cd build
 cmake ..
 cmake --build .`
 
+## Controls
+* Arrow Keys or WASD for directional input
+* Z for A and X for B
+* Enter for select
+* Tab for fast forward
+
 ## Images
 ![Screenshot 2024-11-29 130226](https://github.com/user-attachments/assets/34ae1da7-108f-4d26-a3f4-af12f4ab012c)
 
