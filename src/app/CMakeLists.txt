@@ -1,7 +1,7 @@
-add_executable(chester main.c)
+add_executable(gba main.c)
 
 if (NOT MSVC)
-    set_target_properties(chester PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin")
+    set_target_properties(gba PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin")
 endif()
 
 set(CMAKE_MODULE_PATH ${CMAKE_BINARY_DIR}/cmake-modules)
@@ -12,5 +12,5 @@ endif()
 
 find_package(SDL2 REQUIRED)
 
-target_include_directories(chester PRIVATE ${SDL2_INCLUDE_DIR})
-target_link_libraries(chester libchester ${SDL2_LIBRARY})
+target_include_directories(gba PRIVATE ${SDL2_INCLUDE_DIR})
+target_link_libraries(gba libgba ${SDL2_LIBRARY})

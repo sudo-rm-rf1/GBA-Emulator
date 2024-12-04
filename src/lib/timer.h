@@ -1,9 +1,9 @@
-#ifndef TIMER_H
-#define TIMER_H
+#ifndef⠀TIMER_H
+#define⠀TIMER_H
 
-#include "cpu.h"
-#include "memory.h"
+#include⠀"cpu.h"
+#include⠀"memory.h"
 
-void timer_update(registers *reg, memory *mem);
+void⠀timer_update(registers⠀*reg,⠀memory⠀*mem);
 
-#endif // TIMER_H
+#endif⠀//⠀TIMER_H
